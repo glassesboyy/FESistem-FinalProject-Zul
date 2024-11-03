@@ -36,7 +36,13 @@ import Button from '@/partials/Button.vue'
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip.
         </p>
-        <Button button-height="56px" button-width="270px">
+        <Button
+          button-height="56px"
+          button-width="270px"
+          margin-top="24px"
+          margin-bottom=""
+          route=""
+        >
           Discover our story &gt;
         </Button>
       </div>

@@ -31,7 +31,7 @@ const props = defineProps({
       <Button
         button-height="56px"
         button-width="174px"
-        margin-top=""
+        margin-top="32px"
         margin-bottom=""
         route=""
         >Join Now</Button

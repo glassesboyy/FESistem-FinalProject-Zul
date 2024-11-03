@@ -26,7 +26,13 @@ import Button from '@/partials/Button.vue'
         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident.
       </p>
-      <Button buttonWidth="204px" buttonHeight="56px" route="/blogpost">
+      <Button
+        buttonWidth="204px"
+        buttonHeight="56px"
+        route="/blogpost"
+        marginTop="26px"
+        marginBottom=""
+      >
         Read More &gt;
       </Button>
     </div>

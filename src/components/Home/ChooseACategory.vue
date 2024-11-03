@@ -30,7 +30,7 @@ const props = defineProps<{
       </div>
       <div class="w-full sm:w-1/2 lg:w-1/4">
         <Card
-          image="/src/assets/images/icons/startup.png"
+          image="https://cdn.builder.io/api/v1/image/assets/TEMP/d62b680e110f63bbd900b5cca6ea729feccf24c270e46e3c7aef80075df3f516?placeholderIfAbsent=true&apiKey=6b82233a063a41ad8214944a9bbaf78f"
           altText="Startup Icon"
           title="Startup"
           description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit."

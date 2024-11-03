@@ -33,7 +33,13 @@ import Button from '@/partials/Button.vue'
         proident.
       </p>
 
-      <Button buttonHeight="56px" buttonWidth="204px"></Button>
+      <Button
+        buttonHeight="56px"
+        buttonWidth="204px"
+        marginTop="32px"
+        marginBottom=""
+        route=""
+      ></Button>
     </article>
   </div>
 </template>
