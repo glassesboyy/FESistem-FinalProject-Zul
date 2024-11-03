@@ -28,7 +28,14 @@ const props = defineProps({
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt.
       </p>
-      <Button button-height="56px" button-width="174px">Join Now</Button>
+      <Button
+        button-height="56px"
+        button-width="174px"
+        margin-top=""
+        margin-bottom=""
+        route=""
+        >Join Now</Button
+      >
     </div>
   </div>
 </template>

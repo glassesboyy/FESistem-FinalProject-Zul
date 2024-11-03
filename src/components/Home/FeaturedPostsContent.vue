@@ -40,6 +40,9 @@ import Post from '@/partials/Post.vue'
         <Button
           buttonHeight="48px"
           buttonWidth="full lg:w-[204px]"
+          marginBottom="16px"
+          route=""
+          marginTop=""
           class="mt-[16px] lg:mt-[32px]"
         ></Button>
       </div>
