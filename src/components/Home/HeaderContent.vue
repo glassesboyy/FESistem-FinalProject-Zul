@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const menuOpen = ref(false)
+</script>
 
 <template>
   <nav
@@ -14,33 +18,29 @@
         <router-link
           to="/"
           class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
+          >Home</router-link
         >
-          Home
-        </router-link>
       </li>
       <li>
         <router-link
           to="/blog"
           class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
+          >Blog</router-link
         >
-          Blog
-        </router-link>
       </li>
       <li>
         <router-link
           to="/about"
           class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
+          >About Us</router-link
         >
-          About Us
-        </router-link>
       </li>
       <li>
         <router-link
           to="/contact"
           class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
+          >Contact Us</router-link
         >
-          Contact Us
-        </router-link>
       </li>
     </ul>
     <router-link
@@ -93,43 +93,32 @@
         to="/"
         class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
         @click="menuOpen = false"
+        >Home</router-link
       >
-        Home
-      </router-link>
       <router-link
         to="/blog"
         class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
         @click="menuOpen = false"
+        >Blog</router-link
       >
-        Blog
-      </router-link>
       <router-link
         to="/about"
         class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
         @click="menuOpen = false"
+        >About Us</router-link
       >
-        About Us
-      </router-link>
       <router-link
         to="/contact"
         class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
         @click="menuOpen = false"
+        >Contact Us</router-link
       >
-        Contact Us
-      </router-link>
       <router-link
         to="/contact"
         class="py-2 px-4 font-sans leading-[24px] font-bold text-[16px] bg-x-blue rounded-full text-white hover:bg-x-yellow transition duration-150 ease-in-out"
         @click="menuOpen = false"
+        >Contact Us</router-link
       >
-        Contact Us
-      </router-link>
     </div>
   </nav>
 </template>
-
-<script lang="ts">
-import { ref } from 'vue'
-
-const menuOpen = ref(false)
-</script>
